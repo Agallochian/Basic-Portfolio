@@ -1,0 +1,44 @@
+body{
+	color: #777777; font-family: Arial, Helvetica, Helvetica, sans-serif;
+	background: lightgrey; border-color: #dddddd;
+}
+
+h1{
+	color: white; text-align: center;
+	font-size: 28px; font-family: 'georgia', times, times new roman, serif;
+}
+
+header{
+	position: fixed;
+	background: #4aaaa5;
+	width: 25%;
+	margin-left: 100px;
+}
+
+.links{
+	float: right;
+	margin: 0px, 0px, 0px, 0px;
+	background: white;
+	border-bottom: 1px grey solid;
+	
+}
+
+a{
+	color: #777777; text-decoration: none;
+}
+
+h2{color: #4aaaa5; font-size: 24px;
+margin-bottom: 20px;
+border-bottom: 2px grey solid;
+font-family: 'Georgia', Times, Times New Roman, serif;}
+
+section{
+background: white;
+width: 960px;
+margin-left: 100px;
+}
+
+.about-me{
+
+
+}
