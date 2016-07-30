@@ -95,11 +95,20 @@ h3{
 	vertical-align: middle;
 	margin: auto 0px auto 0px;
 	padding: 0px;
+	padding-top: 30px;
 }
 
 ul.navlist li{
 	display: inline;
 	padding-right: 20px;
+	border-right: 1px solid lightgrey;
+	padding-left: 10px;
+
+
+}
+
+ul.navlist li.last{
+	border-right: 0px;
 }
 
 footer{
