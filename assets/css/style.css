@@ -140,4 +140,109 @@ footer{
 	margin: 10px 0px 10px 0px;
 }
 
+@media screen and (max-width: 980px) {
+	.headerbox {
+		margin-left: 115px;
+	}
 
+	.links {
+		margin-right: 100px;
+	}
+
+	.content {
+		
+	}
+
+	.about-me {
+		width: 42%;
+		margin-left: 100px;
+		height: auto;
+	}
+
+	.connect {
+		margin-right: 100px;
+	}
+
+	.textarea, .textbox {
+		width: 300px;
+		max-width: 300px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	body {
+		width: 700px;
+	}
+
+	footer {
+		width: 768px;
+	}
+
+	.headerbox {
+		margin-left: 20px;
+	}
+
+	.links {
+		margin-right: 250px;
+	}
+
+	.about-me {
+		margin-left: 20px;
+		margin-right: 200px;
+		width: 70%;
+		margin-bottom: 30px;
+		border-bottom: 30px lightgrey solid;
+	}
+
+	.connect {
+		margin-left: 20px;
+		margin-right: 200px;
+		width: 70%;
+		float: none;
+		margin-bottom: 20px;
+		padding-top: 20px;
+		padding-bottom: 20px;
+		border-bottom: 30px lightgrey solid;
+	}
+
+}
+
+@media screen and (max-width: 640px) {
+	header {
+		width: 601px;
+		height: 160px;
+	}
+
+	.headerbox {
+		height: 80px;
+		width: 600px;
+		text-align: center;
+		margin: 0px;
+	}
+
+	.links {
+		margin: 0px;
+		height: 80px;
+		width: 600px;
+		text-align: center;
+
+	}
+
+	.about-me {
+		width: 600px;
+		border-bottom: 30px lightgrey solid;
+	}
+
+	.connect {
+		width: 600px;
+		border-bottom: 30px lightgrey solid;
+
+	}
+
+	.textarea, .textbox {
+		width: 400px;
+		max-width: 400px;
+	}
+
+
+}
